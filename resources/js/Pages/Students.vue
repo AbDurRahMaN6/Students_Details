@@ -58,7 +58,7 @@
                                 <tr v-for="(task,key) in task_list">
                                     <th scope="row">{{ ++key }}</th>
                                     <td>{{ task.name }}</td>
-                                    <td><img src="{{ task.image }}" /></td>
+                                    <td><img img class="image w-20 h-20" src="{{ task.image }}" /></td>
                                     <td> {{ task.age }}</td>
                                     <td>
                                         <span class="badge bg-warning">Inactive</span>
